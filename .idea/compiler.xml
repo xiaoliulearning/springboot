@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot_01_01_quickstart" />
         <module name="springboot_01_02_quickstart" />
+        <module name="springboot_01_01_quickstart" />
+        <module name="springboot_01_03_quickstart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot_01_01_quickstart" target="1.8" />
       <module name="springboot_01_02_quickstart" target="1.8" />
+      <module name="springboot_01_03_quickstart" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
