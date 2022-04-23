@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot_01_02_quickstart" />
+        <module name="springboot_02_baseconfigration" />
         <module name="springboot_01_01_quickstart" />
         <module name="springboot_01_03_quickstart" />
       </profile>
@@ -15,12 +16,14 @@
       <module name="springboot_01_01_quickstart" target="1.8" />
       <module name="springboot_01_02_quickstart" target="1.8" />
       <module name="springboot_01_03_quickstart" target="1.8" />
+      <module name="springboot_02_baseconfigration" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot_01_01_quickstart" options="-parameters" />
       <module name="springboot_01_02_quickstart" options="-parameters" />
+      <module name="springboot_02_baseconfigration" options="-parameters" />
     </option>
   </component>
 </project>
