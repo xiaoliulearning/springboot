@@ -1,4 +1,4 @@
-package com.hy.controller;
+package com.xiaoliu.springboot_01_02_quickstart.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
