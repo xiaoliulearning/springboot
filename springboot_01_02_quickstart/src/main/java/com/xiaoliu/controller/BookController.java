@@ -1,4 +1,4 @@
-package com.xiaoliu.springboot_01_02_quickstart.controller;
+package com.xiaoliu.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BookController {
     @GetMapping
     public String getBookById() {
-        System.out.println("springboot is running");
-        return "springboot is running";
+        System.out.println("springboot is running...2");
+        return "springboot is running...2";
     }
 }
